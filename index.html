@@ -432,6 +432,9 @@ table {
   }
 }
 
+.form1{
+  padding: 2%;
+}
 </style>
 <body>
 
@@ -497,28 +500,31 @@ table {
         <fieldset class="journal-section">
           <legend class="journal-section__label">Mobile Team works</legend>
           <div class="form-group">
+            
             <br>
+           
             <label for="tripName" class="form-group__label">
               <i class="fa-duotone fa-notebook icon-flag"></i>
               Job Name
             </label>
 
 
-            <form action="mailto:tsusantha1111@gmail.com" method="post" enctype="text/plain">
-                Job Name:<br>
-                <input   type="text" id="tripName" class="" value="" placeholder="Enter Job details" required><br>
+            <form action="mailto:tsusantha1111@gmail.com" class="form1" method="post" enctype="text/plain">
+             
+                <input type="text" name="mail"><br>
                 <b>Supervisor</b><br>
                 <input type="text" name="mail"><br>
                 <br>
                 <label for="departDate" class="form-group__label">
-                    <i class="fa-duotone fa-house-person-leave icon-flag"></i>
+                    
                     Departure Date
                   </label>
-                  <input type="date" id="departDate" class="form-group__input" value="" required>
+                  <input type="date" >
                 </div>
                 <div class="form-group">
                 
                 </div>
+                <br>
                 <label for="notes" class="form-group__label ">
                     <i class="fa-duotone fa-pen-clip icon-flag"></i>
                     Notes
